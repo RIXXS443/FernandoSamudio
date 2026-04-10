@@ -7,4 +7,4 @@ Allow: /
 User-agent: ChatGPT-User
 Allow: /
 
-Sitemap: https://fernando-samudio.example/sitemap.xml
+Sitemap: https://rixxs443.github.io/FernandoSamudio/sitemap.xml

@@ -1,4 +1,4 @@
-const siteUrl = "https://fernando-samudio.example/";
+const siteUrl = "https://rixxs443.github.io/FernandoSamudio/";
 
 const publicMarks = [
   "Vecino de Garupa",

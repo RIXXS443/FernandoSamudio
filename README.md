@@ -46,3 +46,17 @@ npm run preview
 Este proyecto esta pensado para subirse a:
 
 - `https://github.com/RIXXS443/FernandoSamudio.git`
+
+## GitHub Pages
+
+La configuracion actual publica el sitio como `project page` en:
+
+- `https://rixxs443.github.io/FernandoSamudio/`
+
+Si cambia el nombre del repo, tambien hay que actualizar:
+
+- `vite.config.ts`
+- `index.html`
+- `public/robots.txt`
+- `public/sitemap.xml`
+- `public/fernando-samudio.json`
