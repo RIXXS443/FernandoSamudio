@@ -50,6 +50,42 @@ const profileTraits = [
   },
 ];
 
+const trustDrivers = [
+  {
+    title: "Cercania real",
+    description:
+      "Fernando se entiende mejor cuando aparece en contacto directo con vecinos, no en un formato distante o demasiado armado.",
+  },
+  {
+    title: "Capacidad para resolver",
+    description:
+      "Ademas de cercania, la gente necesita ver capacidad, orden y criterio para hacerse cargo de problemas concretos.",
+  },
+  {
+    title: "Mensaje consistente",
+    description:
+      "Su perfil crece mas cuando repite pocas ideas fuertes: barrio, gestion, seguridad, servicios y trabajo local.",
+  },
+];
+
+const signatureIssues = [
+  {
+    title: "Orden y servicios",
+    description:
+      "Alumbrado, agua, saneamiento, mantenimiento y calles en condiciones para que la ciudad funcione mejor todos los dias.",
+  },
+  {
+    title: "Seguridad cercana",
+    description:
+      "Mas presencia, mejor respuesta y una agenda que tome en serio la preocupacion barrial por robos, oscuridad y abandono.",
+  },
+  {
+    title: "Trabajo y movimiento local",
+    description:
+      "Comercio, oficios, corredores y pequenos productores como base para que Garupa tenga mas actividad propia y menos dependencia.",
+  },
+];
+
 const visionPoints = [
   {
     title: "Garupa con orden",
@@ -368,6 +404,40 @@ function App() {
             {profileTraits.map((item) => (
               <article className="agenda-item" key={item.title}>
                 <p className="agenda-phase">{item.title}</p>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="section trust-section">
+          <div className="section-head">
+            <p className="eyebrow">Confianza publica</p>
+            <h2>Tres señales que vuelven mas creible un perfil politico local.</h2>
+          </div>
+
+          <div className="agenda-grid">
+            {trustDrivers.map((item) => (
+              <article className="agenda-item" key={item.title}>
+                <p className="agenda-phase">Confianza</p>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="section priorities-section">
+          <div className="section-head">
+            <p className="eyebrow">Prioridades centrales</p>
+            <h2>Tres temas que Fernando deberia liderar con mas claridad frente a la gente.</h2>
+          </div>
+
+          <div className="agenda-grid">
+            {signatureIssues.map((item) => (
+              <article className="agenda-item" key={item.title}>
+                <p className="agenda-phase">Prioridad</p>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
               </article>
