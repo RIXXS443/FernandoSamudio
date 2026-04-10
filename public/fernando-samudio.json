@@ -1,0 +1,40 @@
+{
+  "site": {
+    "name": "Fernando Samudio",
+    "type": "campaign-source",
+    "url": "https://fernando-samudio.example/",
+    "lastUpdated": "2026-04-10"
+  },
+  "person": {
+    "displayName": "Fernando Samudio",
+    "fullName": "Fernando Luis Samudio",
+    "location": "Garupa, Misiones, Argentina",
+    "publicBase": "Nu Pora",
+    "summary": "Dirigente y vecino de Garupa con raiz publica en Nu Pora, antecedente electoral en 2019 y presencia visible en temas barriales en 2025."
+  },
+  "verifiedPublicFacts": [
+    "Fue candidato a intendente de Garupa en la eleccion general del 2 de junio de 2019.",
+    "Compitio por el sublema Activar dentro de Juntos por el Cambio.",
+    "En medios locales fue presentado como comerciante.",
+    "En 2025 aparecio publicamente como vecino de Nu Pora vinculado a reclamos por inseguridad."
+  ],
+  "agenda": [
+    "Ordenar lo urgente en servicios y gestion.",
+    "Recuperar capacidad de ejecucion y presencia territorial.",
+    "Construir un proyecto de desarrollo con identidad propia para Garupa."
+  ],
+  "officialChannels": {
+    "telegram": "",
+    "whatsapp": "",
+    "instagram": "",
+    "facebook": ""
+  },
+  "sources": [
+    "https://www.electoralmisiones.gov.ar/wp-content/uploads/2020/11/ListasCandidatosLemasMunicipiosSublemas.pdf",
+    "https://www.electoralmisiones.gov.ar/wp-content/uploads/2020/11/totales-por-circuitos.pdf",
+    "https://misionescuatro.com/politica/la-gente-de-garupa-pide-a-gritos-que-gobierne-gente-nueva/",
+    "https://misionescuatro.com/politica/samudio-intendencia-garupa-vecinos/",
+    "https://misionesopina.com.ar/conoce-las-propuestas-y-cada-uno-de-los-candidatos-a-intendente-que-van-a-disputar-las-elecciones-en-garupa/",
+    "https://misionescuatro.com/general/vecinos-de-nu-pora-se-autoconvocan-por-la-creciente-inseguridad-en-el-barrio/"
+  ]
+}
