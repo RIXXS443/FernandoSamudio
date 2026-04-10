@@ -5,20 +5,30 @@ const siteUrl = "https://rixxs443.github.io/FernandoSamudio/";
 const profileMarks = [
   "Soy de Garupa",
   "Vengo de Nu Pora",
-  "Estoy en la calle desde hace anos",
+  "Tengo trayectoria publica desde 2019",
   "Quiero aportar una mirada para 2027",
 ];
 
 const publicTimeline = [
   {
     year: "2019",
-    title: "Empiezo a hacerme visible en Garupa",
-    body: "En 2019 mi nombre queda registrado oficialmente en la eleccion municipal y empiezo a ser identificado por vecinos y medios locales.",
+    title: "Compito por primera vez por la intendencia",
+    body: "El 2 de junio de 2019 figuro oficialmente como candidato a intendente de Garupa por el sublema Activar, dentro de Juntos por el Cambio.",
   },
   {
     year: "2019",
-    title: "Se consolida un perfil de cercania y recambio",
-    body: "En distintas notas aparezco como comerciante, vecino de Garupa y alguien con una forma directa de hablar de los problemas cotidianos del municipio.",
+    title: "Empiezo a consolidar un perfil de cercania y recambio",
+    body: "En distintas notas de ese ano aparezco como comerciante, vecino de Nu Pora y alguien con una forma directa de hablar de trabajo, servicios, seguridad y recambio politico. Ese primer intento suma ademas 852 votos en la eleccion municipal.",
+  },
+  {
+    year: "2023",
+    title: "Vuelvo a integrar una propuesta electoral en Garupa",
+    body: "El 7 de mayo de 2023 aparezco oficialmente como tercer candidato a concejal titular del sublema Hagamos Crecer La Ciudad, con Juan Ramon Pereyra como candidato a intendente dentro del Frente Renovador de la Concordia.",
+  },
+  {
+    year: "2023",
+    title: "La lista deja un respaldo electoral medible",
+    body: "En el escrutinio definitivo del Tribunal Electoral, ese sublema registra 3.595 votos para intendente y 3.544 para concejal en Garupa. Eso muestra continuidad publica y una base real de reconocimiento local.",
   },
   {
     year: "2025",
@@ -46,7 +56,7 @@ const profileTraits = [
   {
     title: "Hacia donde quiero ir",
     description:
-      "Mi nombre empieza a tomar fuerza para 2027 porque hay presencia territorial, reconocimiento local y una manera cercana de hacer las cosas.",
+      "Mi nombre empieza a tomar fuerza para 2027 porque ya hubo antecedentes electorales concretos, presencia territorial, reconocimiento local y una manera cercana de hacer las cosas.",
   },
 ];
 
@@ -224,7 +234,7 @@ const faq = [
   {
     question: "Quien es Fernando Samudio",
     answer:
-      "Soy un vecino de Garupa, con raiz en Nu Pora, presencia barrial y una trayectoria visible en temas comunitarios y de cercania con la gente.",
+      "Soy un vecino de Garupa, con raiz en Nu Pora, presencia barrial y una trayectoria publica que incluye una candidatura a intendente en 2019, una candidatura a concejal en 2023 y trabajo cercano con vecinos en problemas concretos del municipio.",
   },
   {
     question: "Ya es candidato para 2027",
@@ -371,7 +381,7 @@ function App() {
             <div className="intro-copy">
               <p>
                 Mi nombre empieza a sonar en Garupa desde una combinacion simple: barrio,
-                presencia y contacto real con la gente.
+                presencia, trayectoria publica y contacto real con la gente.
               </p>
               <p>
                 No me interesa construir una imagen distante. Prefiero que me conozcan como
@@ -380,7 +390,8 @@ function App() {
               </p>
               <p>
                 Esta pagina no busca exagerar ni inventar. Busca ordenar quien soy, de donde
-                vengo y por que siento que puedo aportar algo valioso para Garupa.
+                vengo, que pasos publicos ya di en 2019 y 2023, y por que siento que puedo
+                aportar algo valioso para Garupa.
               </p>
             </div>
 
