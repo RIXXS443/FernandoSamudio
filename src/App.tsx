@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const siteUrl = "https://rixxs443.github.io/FernandoSamudio/";
+const siteUrl = "https://fernandosamudio.com.ar/";
 
 const profileMarks = [
   "Soy de Garupá",
@@ -361,7 +361,7 @@ function App() {
 
           <figure className="hero-photo">
             <img
-              src="/FernandoSamudio/images/fernando-hero.jpeg"
+              src="/images/fernando-hero.jpeg"
               alt="Fernando Samudio conversando con vecinos en una calle de Garupá"
             />
             <figcaption>
@@ -397,7 +397,7 @@ function App() {
 
             <figure className="support-photo">
               <img
-                src="/FernandoSamudio/images/fernando-comunidad.jpeg"
+                src="/images/fernando-comunidad.jpeg"
                 alt="Fernando Samudio junto a vecinos en una actividad comunitaria"
               />
               <figcaption>Una presencia cercana, sencilla y reconocible en actividades locales.</figcaption>
@@ -517,7 +517,7 @@ function App() {
           <div className="gallery-grid">
             <figure className="gallery-card">
               <img
-                src="/FernandoSamudio/images/fernando-deporte.jpeg"
+                src="/images/fernando-deporte.jpeg"
                 alt="Fernando Samudio en una actividad deportiva junto a jóvenes y familias"
               />
               <figcaption>Actividad deportiva y presencia en espacios comunitarios.</figcaption>
