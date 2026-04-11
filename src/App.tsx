@@ -266,7 +266,7 @@ const channels = [
   },
   {
     name: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/fernando_samudio1823/",
     description: "Imágenes, recorridas y momentos de presencia territorial.",
   },
   {
