@@ -1,19 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#10241e"/>
-      <stop offset="100%" stop-color="#24473a"/>
+      <stop offset="0%" stop-color="#173126"/>
+      <stop offset="55%" stop-color="#235d3f"/>
+      <stop offset="100%" stop-color="#b5403a"/>
     </linearGradient>
-    <radialGradient id="glow" cx="70%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#d57a42" stop-opacity="0.38"/>
-      <stop offset="100%" stop-color="#d57a42" stop-opacity="0"/>
+    <radialGradient id="glowRed" cx="82%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#b5403a" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#b5403a" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="glowGreen" cx="14%" cy="82%" r="55%">
+      <stop offset="0%" stop-color="#2f7a4b" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#2f7a4b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flag" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b5403a"/>
+      <stop offset="48%" stop-color="#faf7f0"/>
+      <stop offset="100%" stop-color="#2f7a4b"/>
+    </linearGradient>
   </defs>
 
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#glowRed)"/>
+  <rect width="1200" height="630" fill="url(#glowGreen)"/>
+  <rect x="0" y="0" width="1200" height="8" fill="url(#flag)"/>
 
-  <g opacity="0.12" stroke="#f8f2e8">
+  <g opacity="0.12" stroke="#faf7f0">
     <path d="M0 120 H1200"/>
     <path d="M0 240 H1200"/>
     <path d="M0 360 H1200"/>
@@ -26,16 +38,16 @@
     <path d="M960 0 V630"/>
   </g>
 
-  <text x="90" y="150" fill="#f8b379" font-family="Arial, sans-serif" font-size="30" letter-spacing="7">
-    GARUPA · FUENTE OFICIAL
+  <text x="90" y="150" fill="#faf7f0" font-family="Arial, sans-serif" font-size="30" letter-spacing="7">
+    GARUPÁ · FUENTE OFICIAL
   </text>
-  <text x="90" y="300" fill="#f8f2e8" font-family="Arial, sans-serif" font-size="120" font-weight="800">
+  <text x="90" y="300" fill="#faf7f0" font-family="Arial, sans-serif" font-size="120" font-weight="800">
     Fernando
   </text>
-  <text x="90" y="408" fill="#f8b379" font-family="Georgia, serif" font-size="110" font-style="italic">
+  <text x="90" y="408" fill="#bfe1c9" font-family="Georgia, serif" font-size="110" font-style="italic">
     Samudio
   </text>
-  <text x="90" y="505" fill="#f8f2e8" font-family="Arial, sans-serif" font-size="36">
-    Vecino de Garupa · Gestion directa · Agenda para la ciudad
+  <text x="90" y="505" fill="#faf7f0" font-family="Arial, sans-serif" font-size="36">
+    Vecino de Garupá · Cercanía real · Agenda para la ciudad
   </text>
 </svg>
