@@ -270,22 +270,22 @@ const metroScaleProposals = [
 
 const faq = [
   {
-    question: "¿Quién es Fernando Samudio?",
+    question: "¿Quién soy?",
     answer:
       "Soy un vecino de Garupá, con raíz en Ñu Porá, presencia barrial y una trayectoria pública que incluye una candidatura a intendente en 2019, una candidatura a concejal en 2023 y participación cercana en temas concretos del municipio.",
   },
   {
-    question: "¿Ya es candidato para 2027?",
+    question: "¿Ya estoy definido para 2027?",
     answer:
       "Esta página presenta mi perfil público y mi mirada de ciudad de cara a 2027. La idea es que más vecinos puedan conocer quién soy, qué recorrí y qué quiero aportar.",
   },
   {
-    question: "¿Qué propone para Garupá?",
+    question: "¿Qué propongo para Garupá?",
     answer:
       "Una agenda centrada en seguridad, servicios, orden urbano, municipio que responda, trabajo local, juventud y una ciudad con más futuro.",
   },
   {
-    question: "¿Dónde seguir novedades?",
+    question: "¿Dónde seguir mis novedades?",
     answer:
       "En esta página y en los canales oficiales que voy a seguir consolidando a medida que esta presencia pública crezca.",
   },
@@ -312,6 +312,32 @@ const channels = [
     href: "#",
     description: "Publicaciones abiertas para ampliar alcance local.",
   },
+];
+
+const photoGallery = [
+  { src: "/images/galeria/fernando-galeria-01.jpeg", alt: "Actividad comunitaria en Garupá" },
+  { src: "/images/galeria/fernando-galeria-02.jpeg", alt: "Recorrida barrial en Garupá" },
+  { src: "/images/galeria/fernando-galeria-03.jpeg", alt: "Jornada con vecinos en Garupá" },
+  { src: "/images/galeria/fernando-galeria-04.jpeg", alt: "Encuentro con familias de Garupá" },
+  { src: "/images/galeria/fernando-galeria-05.jpeg", alt: "Actividad local con vecinos" },
+  { src: "/images/galeria/fernando-galeria-06.jpeg", alt: "Momento familiar en una actividad comunitaria" },
+  { src: "/images/galeria/fernando-galeria-07.jpeg", alt: "Jornada con vecinos y referentes barriales" },
+  { src: "/images/galeria/fernando-galeria-08.jpeg", alt: "Participación en una actividad comunitaria" },
+  { src: "/images/galeria/fernando-galeria-09.jpeg", alt: "Espacio de encuentro con jóvenes y familias" },
+  { src: "/images/galeria/fernando-galeria-10.jpeg", alt: "Actividad deportiva en Garupá" },
+  { src: "/images/galeria/fernando-galeria-11.jpeg", alt: "Jornada local cerca de vecinos" },
+  { src: "/images/galeria/fernando-galeria-12.jpeg", alt: "Presencia territorial junto a la comunidad" },
+  { src: "/images/galeria/fernando-galeria-13.jpeg", alt: "Recorrida con vecinos de Garupá" },
+  { src: "/images/galeria/fernando-galeria-14.jpeg", alt: "Actividad barrial en Garupá" },
+  { src: "/images/galeria/fernando-galeria-15.jpeg", alt: "Jornada comunitaria en Garupá" },
+  { src: "/images/galeria/fernando-galeria-16.jpeg", alt: "Selfie en un encuentro vecinal" },
+  { src: "/images/galeria/fernando-galeria-17.jpeg", alt: "Acompañando una reunión barrial" },
+  { src: "/images/galeria/fernando-galeria-18.jpeg", alt: "Evento comunitario con jóvenes" },
+  { src: "/images/galeria/fernando-galeria-19.jpeg", alt: "Espacio de participación barrial" },
+  { src: "/images/galeria/fernando-galeria-20.jpeg", alt: "Actividad con familias y vecinos de Garupá" },
+  { src: "/images/galeria/fernando-galeria-21.jpeg", alt: "Actividad local junto a la comunidad" },
+  { src: "/images/galeria/fernando-galeria-22.jpeg", alt: "Presencia territorial junto a la gente" },
+  { src: "/images/galeria/fernando-galeria-23.jpeg", alt: "Jornada barrial en Garupá" },
 ];
 
 const sources = [
@@ -362,6 +388,7 @@ function App() {
           <a href="#trayectoria">Trayectoria</a>
           <a href="#propuestas">Propuestas</a>
           <a href="#garupa">Garupá</a>
+          <a href="#galeria">Fotos</a>
           <a href="#canales">Canales</a>
         </nav>
       </header>
@@ -401,11 +428,11 @@ function App() {
           <figure className="hero-photo">
             <img
               src="/images/fernando-hero.jpeg"
-              alt="Fernando Samudio conversando con vecinos en una calle de Garupá"
+              alt="Fernando Samudio junto a su familia en una actividad comunitaria de Garupá"
             />
             <figcaption>
-              Ahí es donde mejor se entiende mi perfil: en la calle, cerca de la gente y de los
-              problemas reales de la ciudad.
+              También quiero que esta portada muestre algo simple: cercanía real, familia,
+              comunidad y una forma de estar en Garupá que no es armada para la foto.
             </figcaption>
           </figure>
         </section>
@@ -417,7 +444,7 @@ function App() {
           </div>
 
           <div className="intro-grid">
-            <div className="intro-copy">
+            <div className="intro-copy intro-copy-wide">
               <p>
                 Mi nombre empieza a sonar en Garupá desde una combinación concreta: barrio,
                 presencia pública y contacto real con los vecinos.
@@ -432,16 +459,6 @@ function App() {
                 2027.
               </p>
             </div>
-
-            <figure className="support-photo">
-              <img
-                src="/images/fernando-comunidad.jpeg"
-                alt="Fernando Samudio junto a vecinos en una actividad comunitaria"
-              />
-              <figcaption>
-                Una presencia cercana, sencilla y reconocible en actividades locales.
-              </figcaption>
-            </figure>
           </div>
         </section>
 
@@ -582,27 +599,17 @@ function App() {
             <h2>La política también se entiende en la calle.</h2>
           </div>
 
-          <div className="gallery-grid">
-            <figure className="gallery-card">
-              <img
-                src="/images/fernando-deporte.jpeg"
-                alt="Fernando Samudio en una actividad deportiva junto a jóvenes y familias"
-              />
-              <figcaption>Deporte, actividad comunitaria y presencia en espacios de encuentro.</figcaption>
-            </figure>
-
-            <div className="gallery-copy">
-              <p>
-                Las imágenes elegidas para esta página no muestran una producción artificial.
-                Muestran los lugares donde mejor se entiende mi perfil: barrio, vecinos, jóvenes,
-                deporte y conversación directa.
-              </p>
-              <ul className="reasons-list">
-                <li>La cercanía con la gente es parte central de mi perfil público.</li>
-                <li>La presencia en territorio le da sentido a una proyección hacia 2027.</li>
-                <li>Mi recorrido se entiende mejor cuando se lo ve en la vida real de Garupá.</li>
-              </ul>
-            </div>
+          <div className="story-copy">
+            <p>
+              Las fotos que sumé a esta página no buscan mostrar una producción artificial. Buscan
+              dejar a la vista dónde mejor se entiende mi perfil: barrio, deporte, reuniones
+              caseras, familia, vecinos y presencia real.
+            </p>
+            <ul className="reasons-list">
+              <li>La cercanía con la gente es parte central de mi perfil público.</li>
+              <li>La presencia en territorio le da sentido a una proyección hacia 2027.</li>
+              <li>Por eso reuní todas las fotos juntas al final, en una sola galería clara y ordenada.</li>
+            </ul>
           </div>
         </section>
 
@@ -685,7 +692,7 @@ function App() {
         <section className="section channels-section" id="canales">
           <div className="section-head">
             <p className="eyebrow">Canales</p>
-            <h2>Espacios para seguir de cerca la actividad pública y el recorrido de Fernando.</h2>
+            <h2>Espacios para seguir de cerca mi actividad pública y lo que voy haciendo.</h2>
           </div>
 
           <div className="channels-grid">
@@ -707,7 +714,7 @@ function App() {
         <section className="section faq-section" id="faq">
           <div className="section-head">
             <p className="eyebrow">Preguntas frecuentes</p>
-            <h2>Una presentación clara para que más gente pueda conocer el perfil de Fernando.</h2>
+            <h2>Una presentación clara para que más gente pueda conocerme sin intermediarios.</h2>
           </div>
 
           <div className="faq-list">
@@ -723,7 +730,7 @@ function App() {
         <section className="section sources-section">
           <div className="section-head">
             <p className="eyebrow">Fuentes</p>
-            <h2>Base documental usada para ordenar este perfil público.</h2>
+            <h2>Base documental usada para ordenar mi perfil público.</h2>
           </div>
 
           <ul className="sources-list">
@@ -735,6 +742,26 @@ function App() {
               </li>
             ))}
           </ul>
+        </section>
+
+        <section className="section photo-wall-section" id="galeria">
+          <div className="section-head">
+            <p className="eyebrow">Galería</p>
+            <h2>Todas las fotos juntas, en un solo recorrido visual.</h2>
+          </div>
+
+          <p className="photo-wall-meta">
+            Reuní las imágenes en una sola sección y saqué la repetida exacta para que la galería
+            quede más limpia.
+          </p>
+
+          <div className="photo-wall">
+            {photoGallery.map((photo) => (
+              <figure className="photo-tile" key={photo.src}>
+                <img src={photo.src} alt={photo.alt} loading="lazy" />
+              </figure>
+            ))}
+          </div>
         </section>
 
         <section className="section cta-section">

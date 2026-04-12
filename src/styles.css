@@ -387,6 +387,11 @@ a {
   gap: 1rem;
 }
 
+.intro-copy-wide {
+  grid-column: 1 / -1;
+  max-width: 56rem;
+}
+
 .intro-copy p,
 .gallery-copy p {
   margin: 0;
@@ -416,6 +421,19 @@ a {
 .gallery-copy {
   display: grid;
   gap: 1.1rem;
+}
+
+.story-copy {
+  display: grid;
+  gap: 1.15rem;
+  max-width: 58rem;
+}
+
+.story-copy p {
+  margin: 0;
+  line-height: 1.8;
+  color: var(--text-soft);
+  font-size: 1.02rem;
 }
 
 .reasons-list {
@@ -773,6 +791,35 @@ a {
   transform: translateX(6px);
 }
 
+.photo-wall-meta {
+  max-width: 44rem;
+  margin: 0 0 1.35rem;
+  line-height: 1.78;
+  color: var(--text-soft);
+}
+
+.photo-wall {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.photo-tile {
+  margin: 0;
+  padding: 0.7rem;
+  border-radius: 1.4rem;
+  background: rgba(255, 255, 255, 0.56);
+  box-shadow: var(--shadow);
+}
+
+.photo-tile img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
 .cta-section {
   margin: 0 clamp(1.2rem, 3vw, 2.8rem) 4.5rem;
   padding: clamp(1.6rem, 4vw, 2.8rem);
@@ -853,7 +900,8 @@ a {
   .proposal-grid,
   .intro-grid,
   .gallery-grid,
-  .zone-layout {
+  .zone-layout,
+  .photo-wall {
     grid-template-columns: 1fr;
   }
 
