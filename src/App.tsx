@@ -377,11 +377,11 @@ function App() {
     <div className="site-shell">
       <header className="site-header">
         <a className="brand" href="#inicio" aria-label="Ir al inicio">
-          <span className="brand-mark">FS</span>
-          <span className="brand-copy">
-            <strong>Fernando Samudio</strong>
-            <span>Garupá 2027</span>
-          </span>
+          <img
+            className="brand-logo"
+            src="/logo-samudio-header.svg"
+            alt="Logo de Fernando Samudio"
+          />
         </a>
 
         <nav className="site-nav" aria-label="Navegación principal">

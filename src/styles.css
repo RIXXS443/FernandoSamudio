@@ -123,36 +123,14 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 0.9rem;
+  min-width: 0;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 2.9rem;
-  height: 2.9rem;
-  border-radius: 50%;
-  background:
-    linear-gradient(145deg, var(--accent) 0%, var(--accent-green) 100%);
-  color: var(--paper);
-  font-size: 0.92rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  box-shadow: 0 14px 28px rgba(19, 36, 28, 0.16);
-}
-
-.brand-copy {
-  display: flex;
-  flex-direction: column;
-  gap: 0.05rem;
-  font-size: 0.92rem;
-}
-
-.brand-copy strong {
-  font-size: 0.98rem;
-}
-
-.brand-copy span {
-  color: var(--text-soft);
+.brand-logo {
+  display: block;
+  width: clamp(10.5rem, 20vw, 15.5rem);
+  height: auto;
+  flex-shrink: 0;
 }
 
 .site-nav {
@@ -931,6 +909,14 @@ a {
     flex-direction: column;
   }
 
+  .brand {
+    width: 100%;
+  }
+
+  .brand-logo {
+    width: min(16rem, 100%);
+  }
+
   .site-nav {
     gap: 0.8rem 1rem;
   }
@@ -967,5 +953,16 @@ a {
   .cta-section {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .brand {
+    gap: 0.7rem;
+  }
+
+  .brand-logo {
+    width: 100%;
+    max-width: 13.8rem;
   }
 }

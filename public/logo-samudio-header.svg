@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 140" role="img" aria-label="Fernando Samudio">
+  <defs>
+    <style>
+      .bg { fill: none; }
+      .red { fill: #b5403a; }
+      .green { fill: #1b5d37; }
+      .ink { fill: #13241c; }
+      .line { stroke: #1b5d37; stroke-width: 6; fill: none; stroke-linecap: round; }
+      .word { font-family: Arial, Helvetica, sans-serif; font-weight: 800; letter-spacing: 0.12em; }
+      .name { font-family: Arial, Helvetica, sans-serif; font-weight: 900; letter-spacing: 0.04em; }
+      .tag { font-family: Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: 0.14em; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="420" height="140" />
+
+  <g transform="translate(10 6)">
+    <path class="line" d="M42 24 C62 0, 114 0, 136 24" />
+    <path class="red" d="M91 2 96 14 108 18 96 22 91 34 86 22 74 18 86 14Z" />
+
+    <path
+      class="red"
+      d="M20 34 H96 V56 H54 V68 H90 V90 H54 V116 H20 Z"
+    />
+    <path
+      class="green"
+      d="M102 34 H186 V56 H126 C118 56 112 60 112 68 C112 75 118 78 129 80 L155 85 C175 88 186 98 186 114 C186 130 173 140 150 140 H66 V118 H146 C155 118 162 113 162 106 C162 100 157 96 145 94 L120 89 C101 85 88 75 88 60 C88 44 100 34 120 34 Z"
+      transform="translate(0 -2)"
+    />
+    <path class="bg" d="M0 0h200v140H0z"/>
+    <path class="bg" d="M0 0h200v140H0z"/>
+    <path class="bg" d="M0 0h200v140H0z"/>
+    <path class="bg" d="M0 0h200v140H0z"/>
+    <path
+      d="M33 115 C54 92, 79 82, 116 79 C95 88, 82 99, 69 115 Z"
+      fill="#faf7f0"
+    />
+    <path
+      d="M79 115 C96 96, 114 87, 149 83 C130 93, 119 101, 107 115 Z"
+      fill="#faf7f0"
+    />
+
+    <g transform="translate(214 22)">
+      <text class="word ink" x="0" y="34" font-size="22">FERNANDO</text>
+      <text class="name ink" x="0" y="74" font-size="54">SAMUDIO</text>
+      <text class="tag red" x="0" y="102" font-size="15">GARUPÁ</text>
+      <text class="tag green" x="90" y="102" font-size="15">CERCA</text>
+      <text class="tag ink" x="164" y="102" font-size="15">FIRME</text>
+    </g>
+  </g>
+</svg>
