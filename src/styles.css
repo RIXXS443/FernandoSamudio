@@ -297,6 +297,7 @@ a {
   background: rgba(255, 255, 255, 0.58);
   box-shadow: var(--shadow);
   animation: riseIn 900ms ease both;
+  justify-self: end;
 }
 
 .hero-photo img,
@@ -310,6 +311,7 @@ a {
 
 .hero-photo img {
   min-height: 34rem;
+  object-position: center 28%;
 }
 
 .hero-photo figcaption,
@@ -900,6 +902,8 @@ a {
 
   .hero-photo {
     max-width: 34rem;
+    width: 100%;
+    justify-self: center;
   }
 }
 
@@ -953,6 +957,12 @@ a {
   .cta-section {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .hero-photo img {
+    min-height: 0;
+    height: auto;
+    object-position: center 22%;
   }
 }
 
