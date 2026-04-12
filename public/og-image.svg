@@ -1,53 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#173126"/>
-      <stop offset="55%" stop-color="#235d3f"/>
-      <stop offset="100%" stop-color="#b5403a"/>
-    </linearGradient>
-    <radialGradient id="glowRed" cx="82%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#b5403a" stop-opacity="0.34"/>
-      <stop offset="100%" stop-color="#b5403a" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowGreen" cx="14%" cy="82%" r="55%">
-      <stop offset="0%" stop-color="#2f7a4b" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#2f7a4b" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="flag" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b5403a"/>
-      <stop offset="48%" stop-color="#faf7f0"/>
-      <stop offset="100%" stop-color="#2f7a4b"/>
-    </linearGradient>
-  </defs>
+  <rect width="1200" height="630" fill="#faf7f0"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#b5403a"/>
+  <rect x="0" y="622" width="1200" height="8" fill="#2f7a4b"/>
 
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect width="1200" height="630" fill="url(#glowRed)"/>
-  <rect width="1200" height="630" fill="url(#glowGreen)"/>
-  <rect x="0" y="0" width="1200" height="8" fill="url(#flag)"/>
-
-  <g opacity="0.12" stroke="#faf7f0">
-    <path d="M0 120 H1200"/>
-    <path d="M0 240 H1200"/>
-    <path d="M0 360 H1200"/>
-    <path d="M0 480 H1200"/>
-    <path d="M160 0 V630"/>
-    <path d="M320 0 V630"/>
-    <path d="M480 0 V630"/>
-    <path d="M640 0 V630"/>
-    <path d="M800 0 V630"/>
-    <path d="M960 0 V630"/>
+  <g opacity="0.08">
+    <circle cx="1050" cy="120" r="160" fill="#b5403a"/>
+    <circle cx="130" cy="560" r="180" fill="#2f7a4b"/>
   </g>
 
-  <text x="90" y="150" fill="#faf7f0" font-family="Arial, sans-serif" font-size="30" letter-spacing="7">
-    GARUPÁ · FUENTE OFICIAL
-  </text>
-  <text x="90" y="300" fill="#faf7f0" font-family="Arial, sans-serif" font-size="120" font-weight="800">
-    Fernando
-  </text>
-  <text x="90" y="408" fill="#bfe1c9" font-family="Georgia, serif" font-size="110" font-style="italic">
-    Samudio
-  </text>
-  <text x="90" y="505" fill="#faf7f0" font-family="Arial, sans-serif" font-size="36">
-    Vecino de Garupá · Cercanía real · Agenda para la ciudad
+  <g transform="translate(88 110)">
+    <path d="M0 36 H176 V74 H82 V100 H160 V138 H82 V180 H0 Z" fill="#b5403a"/>
+    <path d="M192 36 H376 V70 H246 C224 70 210 82 210 99 C210 115 224 125 250 131 L304 143 C350 153 376 177 376 216 C376 257 342 282 285 282 H80 V247 H275 C301 247 318 235 318 216 C318 198 301 188 274 182 L221 170 C175 160 146 134 146 96 C146 56 176 36 224 36 Z" fill="#2f7a4b" transform="translate(0 -8) scale(0.83)"/>
+    <path d="M38 184 C77 141, 121 125, 194 119 C154 136, 129 154, 104 184 Z" fill="#faf7f0"/>
+    <path d="M120 184 C153 148, 188 132, 258 126 C218 144, 196 160, 174 184 Z" fill="#faf7f0"/>
+
+    <rect x="414" y="14" width="6" height="170" rx="3" fill="#173126"/>
+    <text x="458" y="72" fill="#13241c" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="0.12em">FERNANDO</text>
+    <text x="458" y="174" fill="#13241c" font-family="Arial, Helvetica, sans-serif" font-size="124" font-weight="900" letter-spacing="0.03em">SAMUDIO</text>
+    <path d="M813 77 C829 55, 861 50, 886 68 C861 57, 838 58, 813 77 Z" fill="#b5403a"/>
+
+    <text x="458" y="245" fill="#b5403a" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800" letter-spacing="0.14em">GARUPÁ</text>
+    <text x="660" y="245" fill="#2f7a4b" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800" letter-spacing="0.14em">CERCA</text>
+    <text x="830" y="245" fill="#13241c" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800" letter-spacing="0.14em">FIRME Y CON FUTURO</text>
+  </g>
+
+  <text x="90" y="540" fill="#173126" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+    Perfil público, trayectoria, visión de ciudad y propuestas base para Garupá 2027
   </text>
 </svg>
