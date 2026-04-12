@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 170" role="img" aria-label="Fernando Samudio">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 170" role="img" aria-label="Fernando Samudio">
   <defs>
     <style>
       .red { fill: #b5403a; }
@@ -10,7 +10,7 @@
     </style>
   </defs>
 
-  <rect width="760" height="170" fill="none"/>
+  <rect width="940" height="170" fill="none"/>
 
   <g transform="translate(12 18)">
     <path class="red" d="M0 20 H154 V52 H72 V74 H140 V106 H72 V142 H0 Z" />
@@ -26,6 +26,6 @@
 
     <text class="top ink" x="404" y="48" font-size="54">FERNANDO</text>
     <text class="main ink" x="404" y="122" font-size="94">SAMUDIO</text>
-    <path class="red" d="M672 52 C684 34, 708 29, 727 44 C708 35, 690 36, 672 52 Z" />
+    <path class="red" d="M820 52 C836 34, 868 29, 893 44 C868 35, 845 36, 820 52 Z" />
   </g>
 </svg>
