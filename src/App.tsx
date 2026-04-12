@@ -16,8 +16,8 @@ const proofFacts = [
     value: "Candidato a intendente de Garupá",
   },
   {
-    label: "852 votos",
-    value: "Primer respaldo electoral medible en la elección municipal de 2019",
+    label: "Ñu Porá",
+    value: "Raíz barrial y presencia pública en una zona central de Garupá",
   },
   {
     label: "2023",
@@ -47,8 +47,8 @@ const publicTimeline = [
   },
   {
     year: "2023",
-    title: "El recorrido suma volumen político",
-    body: "En el escrutinio definitivo, esa lista registra 3.595 votos para intendente y 3.544 para concejal en Garupá. Eso marca continuidad pública y base real de reconocimiento local.",
+    title: "El recorrido suma continuidad pública",
+    body: "Esa etapa confirma que sostengo presencia pública, trabajo territorial y vocación de participar en la discusión local de Garupá.",
   },
   {
     year: "2025",
@@ -387,7 +387,7 @@ function App() {
                 Ver propuestas base
               </a>
               <a className="button button-secondary" href="#trayectoria">
-                Recorrer su trayectoria
+                Recorrer mi trayectoria
               </a>
             </div>
 
